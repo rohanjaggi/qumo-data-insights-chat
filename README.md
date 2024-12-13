@@ -1,4 +1,4 @@
-<img src="https://qumo.ai/logo-white.svg" alt="Qumo AI Logo" width="200"/>
+<img src="https://qumo.ai/logo-black.svg" alt="Qumo AI Logo" width="200"/>
 
 ## Mini Project Specification: AI Chat Interface for Data Insights
 
@@ -24,10 +24,6 @@ The goal is to build a web application with the following key features:
 2. **Data Querying**:
 
    - Process the dataset to provide accurate answers to user queries.
-
-3. **Deployment**:
-
-   - The application must be deployed on a cloud platform (e.g., Vercel, Netlify, AWS, Heroku).
 
 ---
 
@@ -65,16 +61,13 @@ The goal is to build a web application with the following key features:
 
 - Visualisations for common data insights (e.g., charts showing stress levels or support services requested).
 - A summary section for predefined insights (e.g., top 3 stress sources, average mental health rating).
+- Deploy on a cloud platform (e.g., Vercel, Netlify, AWS, Heroku).
 
 ---
 
 ### **Deliverables**
 
-1. **Deployment Link**:
-
-   - A working application deployed and accessible online.
-
-2. **GitHub Repository Link**:
+1. **GitHub Repository Link**:
 
    - A public repository including:
      - Codebase.
@@ -94,13 +87,23 @@ Before you begin, ensure you have Node.js installed on your machine. You can dow
 
 ### Setting Up the Project
 
-1. **Navigate to the project directory:**
+1. **Fork and clone the project:**
+
+   - **Fork the project**: Navigate to the repository on GitHub and click the "Fork" button at the top right corner. This will create a copy of the repository under your own GitHub account, allowing you to make changes without affecting the original project.
+
+   - **Clone the repository**: Once you have forked the repository, clone it to your local machine. You can do this by clicking the "Code" button on your forked repository page, copying the URL, and running the following command in your terminal:
+     ```bash
+     git clone https://github.com/your-username/your-forked-repo.git
+     ```
+     Replace `your-username` with your GitHub username and `your-forked-repo` with the name of the repository you forked.
+
+2. **Navigate to the project directory:**
 
    ```bash
    cd data-insights-chat
    ```
 
-2. **Install the dependencies:**
+3. **Install the dependencies:**
 
    ```bash
    npm install
@@ -108,19 +111,19 @@ Before you begin, ensure you have Node.js installed on your machine. You can dow
 
    You may encounter dependency warnings. You may ignore them for the time being.
 
-3. **Run the development server:**
+4. **Run the development server:**
 
    ```bash
    npm run dev
    ```
 
-4. **Open your browser and visit:**
+5. **Open your browser and visit:**
 
    [http://localhost:3000](http://localhost:3000)
 
    You should see the application running.
 
-5. **Try an example query**
+6. **Try an example query**
 
    Try typing `How many responses are there in total?`
 
