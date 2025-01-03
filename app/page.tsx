@@ -18,7 +18,7 @@ export default function Chat() {
     e.preventDefault();
     setIsLoading(true);
     try {
-      await handleSubmit(e);
+      handleSubmit(e);
     } finally {
       setTimeout(() => setIsLoading(false), 1500); 
     }
