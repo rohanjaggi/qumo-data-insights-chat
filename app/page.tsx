@@ -20,7 +20,7 @@ export default function Chat() {
     try {
       handleSubmit(e);
     } finally {
-      setTimeout(() => setIsLoading(false), 1500); 
+      setTimeout(() => setIsLoading(false), 1000); 
     }
     scrollToBottom();
   };
