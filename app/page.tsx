@@ -156,7 +156,7 @@ export default function Chat() {
                   m.role === "user"
                     ? "bg-blue-500 text-white"
                     : "bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-gray-200"
-                } px-4 py-2 rounded-3xl shadow-md max-w-[85%] sm:max-w-[70%] lg:max-w-[60%] animate-fade-in relative`}
+                } px-4 py-2 rounded-3xl shadow-md max-w-[85%] sm:max-w-[70%] lg:max-w-[60%] animate-fade-in relative hover:shadow-lg hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-300`}
               >
                 <p className="text-sm">{m.content}</p>
                 <button

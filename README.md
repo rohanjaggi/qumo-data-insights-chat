@@ -6,9 +6,11 @@ This project is a clean, user-friendly interface for interacting with Jacky, an 
 
 ### **Approach**
 
-The goal for this project was to make an AI chatbot which was not only able to provide valuable insights, but also create an easy-to-use user experience. 
+The goal for this project was to make an AI chatbot which was not only able to provide valuable insights, but also offers a seamless and intuitive user experience. 
 
-For this project, Vercel AI SDK was utilised, alongside Google Gemini. The frontend was developed using Tailwind CSS.
+To achieve this, Vercel AI SDK was utilised for efficient integration of AI functionalities and Google Gemini as the underlying model. The frontend was designed and implemented using Tailwind CSS, which allowed for rapid development of a responsive and visually appealing interface. Special emphasis was placed on making the chatbot's user experience as seamless and easy-to-use as possible, focusing on ensuring that the features were not just functional but also designed with the user in mind.
+
+The visual style of the chatbot was inspired by popular chat services such as ChatGPT and iMessage, known for their clean and minimalist user interfaces. These services were chosen as design references to provide users with a sense of familiarity, reducing the learning curve and enhancing usability. Familiar design elements, such as speech-bubble-styled messages, a clearly demarcated input area, and intuitive scrollable message threads, ensure that users can interact with the chatbot naturally and efficiently.
 
 ---
 
