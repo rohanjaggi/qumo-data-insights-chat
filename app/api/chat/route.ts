@@ -30,6 +30,7 @@ export async function POST(req: Request) {
       When asked about counts, use the 'count' tool to retrieve the number of responses.
       For other queries, process them using the appropriate tools or direct responses.
       For summaries, use the 'summary' tool to provide an overview of the dataset.
+      Only answer queries regarding the dataset provided.
       Respond in clear and concise language but be polite and understanding.
     `;
 

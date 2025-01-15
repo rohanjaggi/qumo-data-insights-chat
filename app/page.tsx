@@ -41,6 +41,11 @@ export default function Chat() {
 
   const handleQuickAction = (action: string) => {
     handleInputChange({ target: { value: action } });
+    setTimeout(() => {
+      const event = new Event('submit', { bubbles: true, cancelable: true });
+      const form = document.querySelector('form');
+      if (form) form.dispatchEvent(event);
+    }, 0);
   };
 
   const pinMessage = (content: string) => {
@@ -143,7 +148,7 @@ export default function Chat() {
 
       {/* Chat Messages */}
       <div className="flex-1 overflow-y-auto p-4">
-        <div className="flex flex-col gap-2 max-w-[800px] mx-auto">
+        <div className="flex flex-col gap-5 max-w-[800px] mx-auto">
           {messages.map((m) => (
             <div
               key={m.id}
@@ -206,7 +211,7 @@ export default function Chat() {
       >
         <div className="max-w-[800px] mx-auto flex items-center gap-2">
           <input
-            className="flex-1 p-3 border rounded-3xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-gray-200"
+            className="flex-1 p-3 border rounded-3xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-gray-100 text-gray-900"
             value={input}
             placeholder="Type your message..."
             onChange={handleInputChange}
